@@ -15,5 +15,8 @@ For each cell line and its corresponding normal B cells, separate FFPE blocks we
 |HCC1395    |Ductal Carcinima, Stage I  |3       |15.5 |1'018|55     |17'374    |3'341           |5'414      |3'750    |
 |NCI-H1770  |NSCLC, Stage 4             |3       |30.5 |1'253|9      |15'918    |2'880           |7'008      |6'785    |
 
+![VAF](./plots/vaf_decrease.png)
+*VAF of true and false positive calls*
+
 ## Data availability 
 The data generated is available at the SRA repository PRJNA1134786
