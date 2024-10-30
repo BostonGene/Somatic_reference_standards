@@ -3,6 +3,7 @@ Real-world tumor tissues have heterogeneous cell content, it is essential to use
 
 ## Methods
 For each cell line and its corresponding normal B cells, separate FFPE blocks were prepared—one for the tumor cells and one for the matched normal cells. These blocks were stored for 3-4 months, after which DNA extracts were prepared from both the tumor and normal FFPE blocks, as well as from tumor and baseline B cell cultures. The tumor and matched normal DNA extracts were then mixed in various proportions (0:100, 10:90, 20:80, 30:70, 50:50, 25:75, 100:0) before proceeding with library construction procedures.
+![Preparing cell lines mixtures of different tumor purities](./plots/dilution.png)
 
 ## Cell lines description 
 | Cell line |         Diagnosis         | Ploidy | TMB | SNV | INDEL | WT genes | Amplifications | Deletions | Neutral |
