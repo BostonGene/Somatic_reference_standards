@@ -7,13 +7,13 @@ The example of launch:
 
 Agruments:
 
-``` --input, .maf file with annotated variants
-``` --target_bed, Input target.bed file
-``` --reference_sensitivity, Reference file for sensitivity
-``` --reference_precision, Reference file for precision
-``` --purity, Purity of the sample for analysis, must be eiter 10, 20, 30, 50, 75, 100 %
-``` --type, Type of the events for analysis
-``` --output, Output .txt file with performance characteristics
+` --input, .maf file with annotated variants `
+` --target_bed, Input target.bed file `
+` --reference_sensitivity, Reference file for sensitivity `
+` --reference_precision, Reference file for precision `
+` --purity, Purity of the sample for analysis, must be eiter 10, 20, 30, 50, 75, 100 % `
+` --type, Type of the events for analysis `
+` --output, Output .txt file with performance characteristics `
 
 ## For CNV
 
