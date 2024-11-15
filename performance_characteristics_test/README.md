@@ -3,7 +3,7 @@ Use the script snv_indel_metrics.py to compare mutation data set (SNV + Indel) t
 The input file should be in a standard .maf format (columns Chromosome, Start_Position, Reference_Allele, Tumor_Seq_Allele2 are required). 
 
 The example of launch:
-``` python snv_indel_metrics.py --input test_sample.maf --target_bed test_region.bed --reference_sensitivity test_reference_sensitivity.tsv --reference_precision test_reference_precision.tsv --purity 100 --type SNP --output test_output.txt
+` python snv_indel_metrics.py --input test_sample.maf --target_bed test_region.bed --reference_sensitivity test_reference_sensitivity.tsv --reference_precision test_reference_precision.tsv --purity 100 --type SNP --output test_output.txt `
 
 Agruments:
 
