@@ -16,4 +16,14 @@ Agruments:
 ` --output, Output .txt file with performance characteristics `
 
 ## For CNV
+Use the script cnv_metrics.py to compare normalized reference statuses of genes for either of  5 model cell lines to the output of CNV calling pipeline. The output is a .txt file containing Sensitivity and Specificity assassments.
 
+The example of launch:
+` python cnv_metrics.py --input test-cna-normalized.txt --reference test_reference.tsv --genes test_genes.txt --cell_line NCI-H1770 --output test_output.txt `
+
+Arguments:
+` --input, Input .tsv file with normalized variants `
+` --reference, Reference file for cnv and neutral genes `
+` --genes, Target genes for testing `
+` --cell_line, Cell line for testing [COLO829, HCC1143, HCC1395, HCC1937, NCI-H1770] `
+` --output, Output .txt file with performance characteristics `
