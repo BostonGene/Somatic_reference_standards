@@ -1,0 +1,3 @@
+SNP
+Sensitivity: 93.75
+Precision: 88.23529411764706
