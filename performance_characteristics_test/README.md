@@ -5,6 +5,8 @@ The input file should be in a standard .maf format (columns Chromosome, Start_Po
 The example of launch:
 ``` python snv_indel_metrics.py --input test_sample.maf --target_bed test_region.bed --reference_sensitivity test_reference_sensitivity.tsv --reference_precision test_reference_precision.tsv --purity 100 --type SNP --output test_output.txt
 
+Agruments:
+
 ``` --input, .maf file with annotated variants
 ``` --target_bed, Input target.bed file
 ``` --reference_sensitivity, Reference file for sensitivity
